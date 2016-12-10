@@ -1,0 +1,1 @@
+mongoimport --db grades --collection grades --file grades.json
