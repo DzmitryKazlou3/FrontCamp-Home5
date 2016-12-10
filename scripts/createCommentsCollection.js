@@ -21,3 +21,6 @@ while ( articlesCursor.hasNext() ){
         currentAuthorindex++;
     }
 }
+
+db.comments.createIndex({"author_id":1});
+db.comments.createIndex({"creationDate":1});

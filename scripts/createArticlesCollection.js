@@ -10,3 +10,6 @@ while ( authorsCursor.hasNext() ){
             creationDate: new Date()
         });
 }
+
+db.articles.createIndex({"author_id": 1});
+db.articles.createIndex({"creationDate":1});
