@@ -1,0 +1,1 @@
+mongoimport --db grades --collection grades --port 27100 --file grades.json
